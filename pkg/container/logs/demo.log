@@ -1,0 +1,28 @@
+1.6710120444005399e+09	info	zap/zap.go:49	
+	1.6710120444022305e+09	info	cmd/main.go:34	Continue
+	1.6710120460590715e+09	info	logger/create_logger.go:31	listing success%!(EXTRA string=product.main.31)
+	1.671012046323492e+09	error	logger/create_logger.go:33	Order Svc on%!(EXTRA string=order.main.42)
+	1.6710120464384375e+09	info	logger/create_logger.go:31	Auth Svc on %!!(string=auth.main.41)d(string=:50051)
+	1.6710123078299353e+09	info	logger/create_logger.go:31	Start Register User%!(EXTRA string=auth.services.auth.22)
+	1.6710123136169605e+09	info	logger/create_logger.go:31	Start Login User%!(EXTRA string=auth.services.auth.43)
+	1.671012313634323e+09	info	logger/create_logger.go:31	Login success, token will be sent on response%!(EXTRA string=auth.services.auth.62)
+	1.6710123309177043e+09	info	logger/create_logger.go:31	Start Validate User%!(EXTRA string=auth.services.auth.71)
+	1.6710123309210794e+09	info	logger/create_logger.go:31	Validate User Success%!(EXTRA string=auth.services.auth.90)
+	1.6710123309507234e+09	info	logger/create_logger.go:31	Start CreateProduct%!(EXTRA string=product.product.20)
+	1.6710123309745133e+09	info	logger/create_logger.go:31	End CreateProduct%!(EXTRA string=product.product.33)
+	1.6710123431849122e+09	info	logger/create_logger.go:31	Start Validate User%!(EXTRA string=auth.services.auth.71)
+	1.671012343187909e+09	info	logger/create_logger.go:31	Validate User Success%!(EXTRA string=auth.services.auth.90)
+	1.6710123431919377e+09	info	logger/create_logger.go:31	Start FindOne Product%!(EXTRA string=product.product.43)
+	1.6710123431989722e+09	info	logger/create_logger.go:31	End FindOne Product%!(EXTRA string=product.product.60)
+	1.6710123616791708e+09	info	logger/create_logger.go:31	Start Validate User%!(EXTRA string=auth.services.auth.71)
+	1.6710123616823206e+09	info	logger/create_logger.go:31	Validate User Success%!(EXTRA string=auth.services.auth.90)
+	1.6710123617469342e+09	info	logger/create_logger.go:31	Start CreatteOrder%!(EXTRA string=order.order.21)
+	1.6710123617519214e+09	info	logger/create_logger.go:31	Start FindOne Product%!(EXTRA string=product.product.43)
+	1.6710123617550297e+09	info	logger/create_logger.go:31	End FindOne Product%!(EXTRA string=product.product.60)
+	{"level":"info","ts":1671071220.726868,"caller":"zap/zap.go:49","msg":""}
+	{"level":"info","ts":1671071220.7549381,"caller":"cmd/main.go:34","msg":"Continue"}
+	{"level":"info","timestamp":"2022-12-15T09:57:19+07:00","caller":"zap/zap.go:51","msg":""}
+	{"level":"info","timestamp":"2022-12-15T09:57:20+07:00","caller":"cmd/main.go:34","msg":"Continue"}
+	{"level":"info","timestamp":"2022-12-15T10:18:28+07:00","caller":"zap/zap.go:51","msg":""}
+	{"level":"info","timestamp":"2022-12-15T10:18:28+07:00","caller":"cmd/main.go:34","msg":"Continue"}
+	
