@@ -25,4 +25,13 @@
 	{"level":"info","timestamp":"2022-12-15T09:57:20+07:00","caller":"cmd/main.go:34","msg":"Continue"}
 	{"level":"info","timestamp":"2022-12-15T10:18:28+07:00","caller":"zap/zap.go:51","msg":""}
 	{"level":"info","timestamp":"2022-12-15T10:18:28+07:00","caller":"cmd/main.go:34","msg":"Continue"}
+	{"level":"info","timestamp":"2022-12-15T14:33:54+07:00","caller":"zap/zap.go:51","msg":""}
+	{"level":"info","timestamp":"2022-12-15T14:33:54+07:00","caller":"cmd/main.go:34","msg":"Continue"}
+	{"level":"info","timestamp":"2022-12-15T08:37:54Z","caller":"zap/zap.go:51","func":"github.com/nghiack7/go-grpc-api-gateway/pkg/container/zap.RegisterLog","msg":""}
+	{"level":"info","timestamp":"2022-12-15T08:37:54Z","caller":"cmd/main.go:34","func":"main.main","msg":"Continue"}
+	{"level":"info","timestamp":"2022-12-15T08:37:59Z","caller":"logger/create_logger.go:31","func":"github.com/nghiack7/go-grpc-api-gateway/pkg/container/logger.WriteLogger","msg":"Auth Svc on %!!(string=auth.main.41)d(string=:50051)"}
+	{"level":"info","timestamp":"2022-12-15T08:37:59Z","caller":"logger/create_logger.go:31","func":"github.com/nghiack7/go-grpc-api-gateway/pkg/container/logger.WriteLogger","msg":"Order Svc on%!(EXTRA string=order.main.42)"}
+	{"level":"info","timestamp":"2022-12-15T08:37:59Z","caller":"logger/create_logger.go:31","func":"github.com/nghiack7/go-grpc-api-gateway/pkg/container/logger.WriteLogger","msg":"listing success%!(EXTRA string=product.main.31)"}
+	{"level":"info","timestamp":"2022-12-15T09:01:23Z","caller":"zap/zap.go:51","func":"github.com/nghiack7/go-grpc-api-gateway/pkg/container/zap.RegisterLog","msg":""}
+	{"level":"info","timestamp":"2022-12-15T09:01:23Z","caller":"cmd/main.go:34","func":"main.main","msg":"Continue"}
 	

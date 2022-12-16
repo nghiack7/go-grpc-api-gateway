@@ -34,6 +34,8 @@ type LogConfig struct {
 	Level string `yaml:"level"`
 	// show caller in log message
 	EnableCaller bool `yaml:"enableCaller"`
+	// for another services
+	SvcName string `yaml:"svcName"`
 }
 
 const (

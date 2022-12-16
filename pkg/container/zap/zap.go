@@ -93,6 +93,15 @@ func initLog(lc config.LogConfig) (zap.Logger, error) {
 		return *zLogger, errors.Wrap(err, "cfg.Build()")
 	}
 	cfg.EncoderConfig.EncodeTime = zapcore.TimeEncoderOfLayout(time.RFC3339)
+	cfg.EncoderConfig.FunctionKey = "func"
+	switch lc.SvcName {
+	case "product":
+		cfg.OutputPaths = []string{"stdout", "./pkg/logger/product.log"}
+	case "auth":
+		cfg.OutputPaths = []string{"stdout", "./pkg/logger/auth.log"}
+	case "order":
+		cfg.OutputPaths = []string{"stdout", "./pkg/logger/order.log"}
+	}
 	zLogger, err = cfg.Build()
 	if err != nil {
 		return *zLogger, errors.Wrap(err, "cfg.Build()")
